@@ -10,6 +10,10 @@ created_at: "2025-07-09"
 30m Begin!
   I have a clock motor laying around (for an analog mounted wall clock). The ideas is hacking it to do whatever I want. Mode 1 is regular clock. Then, if you press start, it runs like a watch chronometer.
 
+  I found a similar project using a Rasberry Pi made by Simon Monk, and plan to use his wiring diagram as a starting point:
+![RasberryPi and Breadboard diagram](Assets/PiProjectScreenshot.png)
+
+
 
 ## 7_12_2025 
 
@@ -18,5 +22,14 @@ created_at: "2025-07-09"
 
   The switches are a one-row matrix to save space.
 
-30m KiCad the schematic
-  I planned to use a Xiao ESP32-C3, but the documentation says "ESP32-C3 is unable to operate without an external main crystal clock." As much as I'd love to wire a SMD crystal oscillator, I want this working more. ESP
+30m Read the ESP32-C3 datasheet.
+  The datasheet said the ESP32-C3 didn't have an internal clock, so I asked on the Slack. @luteron6 helped out - I was reading the schematic for the chip itself and not the module. Since the module has a clock, I can continue on.
+
+## 7_13_2025
+
+1.5h Make the schematic.
+  Learned a couple helpful things. Headers are called Conn pins, and that's what I used for the OLED and clock input.
+  ![Schematic Version 1](Assets/SchematicV1.png)
+
+1h Motor controller swap
+  I was putting off figuring out how to jump from the 3V3 to the 5V for the L293D. I *could* add some components to raise the voltage. But since the clock stepper is a Lavet-type stepper motor, it likely draws 1.5 volts, so raising, then lowering, the voltage isn't useful. Instead I'm going to use the ChatGPT recommended DRV8833 which operates down to 2.7V due to the MOSFET.
