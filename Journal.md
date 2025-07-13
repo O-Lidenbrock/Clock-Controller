@@ -1,3 +1,10 @@
+---
+title: "Clock Controller"
+author: "Stephen McAllister"
+description: "Hacking an analog wall clock to run off a Xiao ESP32-C3. Besides timekeeping, will be a timer and stopwatch. Controlled via BT or wall mounted keypad."
+created_at: "2025-07-09"
+---
+
 ## 7_9_2025
 
 30m Begin!
