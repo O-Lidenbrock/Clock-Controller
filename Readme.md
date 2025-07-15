@@ -1,0 +1,1 @@
+This is a Bluetooth enabled keypad wired to the stepper in an analog clock. It works as a normal wall clock, a timer (maybe I should add a bell), and a stopwatch. It should be a 4 point project because I already have most of the parts laying around.
