@@ -9,3 +9,4 @@ This is a Bluetooth enabled keypad wired to the stepper in an analog clock. It w
 Seeed Xiao ESP32-C3.  
 Analog clock motor.  
 Lithium battery.  
+DRV8833 Motor controller
