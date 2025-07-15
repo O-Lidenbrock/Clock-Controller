@@ -4,8 +4,8 @@ This is a Bluetooth enabled keypad wired to the stepper in an analog clock. It w
 
 ### BOM (rough draft)
 
-3x keys + key caps
-3x diodes
-Seeed Xiao ESP32-C3
-Analog clock motor
-Lithium battery
+3x keys + key caps. 
+3x diodes. 
+Seeed Xiao ESP32-C3. 
+Analog clock motor. 
+Lithium battery. 
