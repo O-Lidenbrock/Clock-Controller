@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0402,1,2.2uF_6.3V,
+C2,0402,1,10uF,
+C3,0805,1,0.01uF_16V,
+H5,SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm,1,Stepper pad 1,
+J1,SSD1306-0.91-OLED-4pin-128x32,1,OLED,
+R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,Resistor,
+"SW1, SW2, SW3",SW_Cherry_MX_1.00u_PCB,3,SW_Push,
+U1,XIAO-ESP32C3-DIP,1,XIAO-ESP32-C3-SMD,
+U2,TSSOP-16_4.4x5mm_P0.65mm,1,DRV8833PW,

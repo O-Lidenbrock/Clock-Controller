@@ -56,11 +56,13 @@ not really sure what the VINT is there for
 
 VCP needs a bootstrap circuit that I don't know how to make (yet).
 
-I might need a resistor at AISEN to limit current: ![Current control docs](Assets/current-control.png)
+I might need a resistor at AISEN to limit current: 
+![Current control docs](Assets/current-control.png)
 
 Thick trace from VM to ground
 
-There's no resistor on the high-side pin? ![recommended layout](Assets/recommended-layout.png)
+There's no resistor on the high-side pin? 
+![recommended layout](Assets/recommended-layout.png)
 
 #### 8/31/2025
 *1h*
@@ -69,7 +71,8 @@ ok so VCP is a flying capacitor - the charge pump circuit is inside the chip.
 
 I added the resistor to AISEN, which is ground for the A circuit.
 
-Pretty confident this schematic will work going forward: ![First full schematic](Assets/SchematicV2.png)
+Pretty confident this schematic will work going forward:
+![First full schematic](Assets/SchematicV2.png)
 
 Goals:
   1. make a pcb with roundy corners bc I like
@@ -89,3 +92,9 @@ And this is my schematic:
 ![Schematic V3](Assets/SchematicV3.png)
 
 I got trained at the innovation lab so I can use their soldering irons now.
+
+#### 9/28/2025
+
+Learned from finishing the keeb that unless I have a lot of components, having JLCPCB assemble isn't economic. 
+
+*2h* generated it as assembled, assembly cost ($15) was basically the cost of components with the JLCPCB coupon ($9)
