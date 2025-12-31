@@ -1,5 +1,7 @@
-Item                                     , Quantity, Price
-Seeed Studio XIAO ESP32C3                ,        1, 9.90
-PCB w/ caps & motor controlller assembled,        1, 18.80
-JST PH 2-pin connector                   ,        1, Free
-3.7v LiPo battery 150mAh                 ,        1, unknown
+Item                                     , Quantity , Price  , Source    , Prod Number
+---------------------------------------- , ---------, -------, -------   , -----------------
+Seeed Studio XIAO ESP32C3                , 1        , 5.38   , DigiKey   , 1597-113991254-ND
+PCB w/ caps & motor controlller assembled, 1        , 18.80  , JLCPCB
+JST PH 2-pin connector                   , 1        , Free   , MakerSpace
+3.7v LiPo battery 500mAh 1               , 1        , 7.95   , DigiKey   , 1528-1841-ND
+2.4Ghz Antenna                           , 1        , 1.82   , DigiKey   , 311-1551-ND

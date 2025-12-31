@@ -98,3 +98,9 @@ I got trained at the innovation lab so I can use their soldering irons now.
 Learned from finishing the keeb that unless I have a lot of components, having JLCPCB assemble isn't economic. 
 
 *2h* generated it as assembled, assembly cost ($15) was basically the cost of components with the JLCPCB coupon ($9)
+
+#### Sometime in December
+*2h* Built a hacky case mount to try and get some steam
+
+#### 12/31/2025
+*1h* Finally attacked the BOM and found all the stuff I need on Digikey
