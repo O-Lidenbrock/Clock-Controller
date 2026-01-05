@@ -1,6 +1,6 @@
 Item                                     , Quantity , Price  , Source    , Prod Number
 ---------------------------------------- , ---------, -------, -------   , -----------------
-Seeed Studio XIAO ESP32C3                , 1        , 5.38   , DigiKey   , 1597-113991254-ND
+Seeed Studio XIAO ESP32C6                , 1        , 5.38   , DigiKey   , 1597-113991254-ND
 PCB w/ caps & motor controlller assembled, 1        , 18.80  , JLCPCB    , N/A
 JST PH 2-pin connector                   , 1        , Free   , MakerSpace, N/A
 3.7v LiPo battery 500mAh 1               , 1        , 7.95   , DigiKey   , 1528-1841-ND

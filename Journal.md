@@ -104,3 +104,33 @@ Learned from finishing the keeb that unless I have a lot of components, having J
 
 #### 12/31/2025
 *1h* Finally attacked the BOM and found all the stuff I need on Digikey
+
+#### 1/5/2025
+*30m* Sanity checking my BOM. Digikey parts cost $15.15 + $6.99 FedEx Ground coming to $22.14
+
+To get the same items from Ali Express
+| Item | Cost | Link |
+| ---- | ---- | ---- |
+| Xiao Esp32-C6 | 14.37 | www.aliexpress.us/item/3256809265960807 |
+| 3.7v Li battery 500mAh | 11.58 | aliexpress.us/item/3256809202812025 |
+| 2.4Ghz Antenna | 2.46 | aliexpress.us/item/3256806242646249 |
+
+These numbers aren't the best (I could probably get the battery cheaper and the Xiao ESP32-C6 is more expensive when not on sale), but I'm satisfied Digikey is the cheapest option.
+
+*_* Write the firmware
+Arduino is the best supported IDE, so I used that to write the firmware.
+
+Minimum Viable Product:
+* A default clock state where the Xiao makes the stepper run like a normal clock
+* A timer function where the Xiao sets the clock to count down till noon
+* Key controls: Zero/Show-current-time, manual-rotate-forward, timer start/pause
+* OLED display shows time or timer, depending on what the clock is doing
+* Control mapped to a HomeAssistant dashboard
+
+Other useful features:
+* running the Lavett at speed could throw the hands out of wack. Reflective sensors are a cheap way to verify everything is zeroed correctly
+* Or do I want a servo motor controlling the gearbox instead?
+* stopwatch features
+
+*25m* pulled apart the clock mechanism to find the stepper and gears. When I plugged in the battery the drive gear spun insanely fast. If it's moving that fast and then being geared down, speeding it up with a higher voltage will at least slip a gear or worse blow the mechanism.
+I need to find a better way of driving this thing - looks like I'm buying a stepper
